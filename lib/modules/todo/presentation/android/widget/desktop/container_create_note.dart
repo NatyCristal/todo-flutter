@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tarefa/core/theme/styles.dart';
-import 'package:tarefa/core/utils/breakpoints.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/store/home_page_store.dart';
+import 'package:todo/core/theme/styles.dart';
+import 'package:todo/core/utils/breakpoints.dart';
+import 'package:todo/modules/todo/presentation/android/store/home_page_store.dart';
 
 import '../../../../../../core/theme/colors.dart';
 

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:tarefa/core/utils/breakpoints.dart';
-import 'package:tarefa/core/widgets/android/base_container_android.dart';
-import 'package:tarefa/core/widgets/android/search_widget.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/store/home_page_store.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/store/search_store.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/widget/desktop/add_note_desktop.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/widget/desktop/container_create_note.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/widget/grid_view_todo.dart';
+import 'package:todo/core/utils/breakpoints.dart';
+import 'package:todo/core/widgets/android/base_container_android.dart';
+import 'package:todo/core/widgets/android/search_widget.dart';
+import 'package:todo/modules/todo/presentation/android/store/home_page_store.dart';
+import 'package:todo/modules/todo/presentation/android/store/search_store.dart';
+import 'package:todo/modules/todo/presentation/android/widget/desktop/add_note_desktop.dart';
+import 'package:todo/modules/todo/presentation/android/widget/desktop/container_create_note.dart';
+import 'package:todo/modules/todo/presentation/android/widget/grid_view_todo.dart';
 
 class HomePageAndroid extends StatelessWidget {
   final HomePageStore store;

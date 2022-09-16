@@ -14,7 +14,7 @@ class _SplashState extends State<Splash> {
     super.initState();
     Future.delayed(const Duration(seconds: 3)).then((_) async {
       Modular.to
-          .pushNamedAndRemoveUntil("/tarefa/", (Route<dynamic> route) => false);
+          .pushNamedAndRemoveUntil("/todo/", (Route<dynamic> route) => false);
     });
   }
 

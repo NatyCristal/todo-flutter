@@ -1,6 +1,6 @@
 import 'package:mobx/mobx.dart';
-import 'package:tarefa/core/utils/utils.dart';
-import 'package:tarefa/modules/tarefa/domain/entity/todo_entity.dart';
+import 'package:todo/core/utils/utils.dart';
+import 'package:todo/modules/todo/domain/entity/todo_entity.dart';
 
 part 'search_store.g.dart';
 

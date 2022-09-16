@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:tarefa/core/theme/colors.dart';
-import 'package:tarefa/core/theme/styles.dart';
-import 'package:tarefa/core/utils/utils.dart';
-import 'package:tarefa/core/widgets/android/row_widget.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/store/add_todo_store.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/widget/done_card.dart';
+import 'package:todo/core/theme/colors.dart';
+import 'package:todo/core/theme/styles.dart';
+import 'package:todo/core/utils/utils.dart';
+import 'package:todo/core/widgets/android/row_widget.dart';
+import 'package:todo/modules/todo/presentation/android/store/add_todo_store.dart';
+import 'package:todo/modules/todo/presentation/android/widget/done_card.dart';
 
 class WidgetToDo extends StatelessWidget {
   final AddTodoStore store;

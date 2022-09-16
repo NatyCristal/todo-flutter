@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
-import 'package:tarefa/core/utils/utils.dart';
-import 'package:tarefa/core/widgets/android/base_container_android.dart';
-import 'package:tarefa/core/widgets/android/button_widget.dart';
+import 'package:todo/core/utils/utils.dart';
+import 'package:todo/core/widgets/android/base_container_android.dart';
+import 'package:todo/core/widgets/android/button_widget.dart';
 
 class CalendarPage extends StatefulWidget {
   const CalendarPage({Key? key}) : super(key: key);

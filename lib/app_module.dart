@@ -1,6 +1,6 @@
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:tarefa/core/theme/splash.dart';
-import 'package:tarefa/modules/tarefa/presentation/todo_module.dart';
+import 'package:todo/core/theme/splash.dart';
+import 'package:todo/modules/todo/presentation/todo_module.dart';
 
 class AppModule extends Module {
   @override
@@ -8,6 +8,6 @@ class AppModule extends Module {
         ChildRoute('/',
             transition: TransitionType.leftToRight,
             child: (context, args) => const Splash()),
-        ModuleRoute('/tarefa', module: TodoModule()),
+        ModuleRoute('/todo', module: TodoModule()),
       ];
 }

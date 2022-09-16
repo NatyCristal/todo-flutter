@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:tarefa/core/utils/alerts.dart';
-import 'package:tarefa/core/widgets/android/base_container_android.dart';
-import 'package:tarefa/core/widgets/android/button_widget.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/store/add_todo_store.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/widget/widget_todo.dart';
+import 'package:todo/core/utils/alerts.dart';
+import 'package:todo/core/widgets/android/base_container_android.dart';
+import 'package:todo/core/widgets/android/button_widget.dart';
+import 'package:todo/modules/todo/presentation/android/store/add_todo_store.dart';
+import 'package:todo/modules/todo/presentation/android/widget/widget_todo.dart';
 
 class AddTodoPage extends StatelessWidget {
   final AddTodoStore store;

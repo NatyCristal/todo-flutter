@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:tarefa/app_module.dart';
-import 'package:tarefa/core/theme/theme.dart';
+import 'package:todo/app_module.dart';
+import 'package:todo/core/theme/theme.dart';
 
 void main() {
   runApp(ModularApp(module: AppModule(), child: const MyApp()));

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tarefa/core/theme/colors.dart';
-import 'package:tarefa/core/theme/styles.dart';
+import 'package:todo/core/theme/colors.dart';
+import 'package:todo/core/theme/styles.dart';
 
 class Button extends StatelessWidget {
   final String title;

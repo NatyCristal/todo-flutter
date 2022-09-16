@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:side_navigation/side_navigation.dart';
-import 'package:tarefa/core/theme/colors.dart';
+import 'package:todo/core/theme/colors.dart';
 import '../../utils/breakpoints.dart';
 
 class BaseContainerAndroid extends StatefulWidget {

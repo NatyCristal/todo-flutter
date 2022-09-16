@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:tarefa/core/theme/styles.dart';
-import 'package:tarefa/core/widgets/android/row_widget.dart';
-import 'package:tarefa/modules/tarefa/domain/entity/todo_entity.dart';
+import 'package:todo/core/theme/styles.dart';
+import 'package:todo/core/widgets/android/row_widget.dart';
+import 'package:todo/modules/todo/domain/entity/todo_entity.dart';
 
 class CardTodo extends StatelessWidget {
   final ToDo todo;

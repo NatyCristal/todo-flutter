@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tarefa/core/theme/colors.dart';
+import 'package:todo/core/theme/colors.dart';
 
 getAndroidTheme() {
   return ThemeData(

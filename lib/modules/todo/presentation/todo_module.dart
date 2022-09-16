@@ -1,11 +1,11 @@
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/pages/add_todo_page.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/pages/calendar_page.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/pages/edit_todo_page.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/pages/home_page.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/pages/todo_completed_page.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/store/add_todo_store.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/store/home_page_store.dart';
+import 'package:todo/modules/todo/presentation/android/pages/add_todo_page.dart';
+import 'package:todo/modules/todo/presentation/android/pages/calendar_page.dart';
+import 'package:todo/modules/todo/presentation/android/pages/edit_todo_page.dart';
+import 'package:todo/modules/todo/presentation/android/pages/home_page.dart';
+import 'package:todo/modules/todo/presentation/android/pages/todo_completed_page.dart';
+import 'package:todo/modules/todo/presentation/android/store/add_todo_store.dart';
+import 'package:todo/modules/todo/presentation/android/store/home_page_store.dart';
 
 class TodoModule extends Module {
   @override

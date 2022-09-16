@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
-import 'package:tarefa/core/theme/colors.dart';
-import 'package:tarefa/core/widgets/android/components/painter_componente.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/store/add_todo_store.dart';
+import 'package:todo/core/theme/colors.dart';
+import 'package:todo/core/widgets/android/components/painter_componente.dart';
+import 'package:todo/modules/todo/presentation/android/store/add_todo_store.dart';
 import '../../../../../core/theme/styles.dart';
 import '../../../../../core/utils/utils.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:tarefa/core/widgets/android/base_container_android.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/widget/card_archive.dart';
+import 'package:todo/core/widgets/android/base_container_android.dart';
+import 'package:todo/modules/todo/presentation/android/widget/card_archive.dart';
 
 class TodoFiledPage extends StatefulWidget {
   const TodoFiledPage({Key? key}) : super(key: key);

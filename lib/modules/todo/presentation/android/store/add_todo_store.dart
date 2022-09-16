@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:mobx/mobx.dart';
-import 'package:tarefa/core/utils/utils.dart';
+import 'package:todo/core/utils/utils.dart';
 part 'add_todo_store.g.dart';
 
 class AddTodoStore = AddTodoStoreBase with _$AddTodoStore;

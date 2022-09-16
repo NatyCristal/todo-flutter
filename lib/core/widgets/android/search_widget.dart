@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:tarefa/core/theme/colors.dart';
-import 'package:tarefa/core/theme/styles.dart';
-import 'package:tarefa/core/widgets/android/row_widget.dart';
-import 'package:tarefa/modules/tarefa/presentation/android/store/search_store.dart';
+import 'package:todo/core/theme/colors.dart';
+import 'package:todo/core/theme/styles.dart';
+import 'package:todo/core/widgets/android/row_widget.dart';
+import 'package:todo/modules/todo/presentation/android/store/search_store.dart';
 
 class ShearchWidget extends StatelessWidget {
   final SearchStore store;
